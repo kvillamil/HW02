@@ -60,26 +60,26 @@ private:
 		Directory_Entry() {} // Default no-argument constructor 
 		Directory_Entry(std::string the_name, std::string the_number) {
 			
-			this->the_name = the_name;
-			this->the_number = the_number;
+			//this->the_name = the_name;
+			//this->the_number = the_number;
 			
 		}
 
 		std::string get_name() const {
-			return the_name; 
+			return "";//the_name; 
 		}
 
 		std::string get_number() const {
-			return the_number;
+			return "";//the_number;
 		}
 
 		void set_number(const std::string& new_number) {
-			the_number = new_number;
+			//the_number = new_number;
 		}
 
 	private:
-		std::string the_name;
-		std::string the_number;
+		//std::string the_name;
+		//std::string the_number;
 	}; //Exercise 1.6: Katalina Villamil
 
 	// Private Functions
